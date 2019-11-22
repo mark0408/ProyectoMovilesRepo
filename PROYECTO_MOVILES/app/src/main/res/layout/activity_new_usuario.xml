@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    tools:context=".NewUsuario">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="410dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="127dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Ingrese nuevo usuario..."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="410dp"
+        android:layout_height="81dp"
+
+        android:layout_marginTop="225dp"
+        android:ems="10"
+        android:hint="Ingrese nueva contraseña..."
+        android:inputType="textPersonName"
+        android:password="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="410dp"
+        android:layout_height="81dp"
+
+        android:layout_marginTop="317dp"
+        android:ems="10"
+        android:hint="Confirma contraseña..."
+        android:inputType="textPersonName"
+        android:password="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegistarNuevo"
+        android:layout_width="159dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="456dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Registrarse"
+
+        android:textColor="@color/colorAzul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="285dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="40dp"
+        android:text="Nuevo Registro."
+        android:textSize="35dp"
+        android:textColor="@color/colorAzul"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

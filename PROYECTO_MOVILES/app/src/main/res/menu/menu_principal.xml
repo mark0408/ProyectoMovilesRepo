@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <item android:id="@+id/mnlistar" android:title="Ver listado de pedidos"
+       android:textStyle="bold"
+       app:showAsAction="never"/>
+
+    <item android:id="@+id/mnBuscar" android:title="Buscar"
+        android:textStyle="bold"
+        app:showAsAction="never"/>
+
+</menu>
